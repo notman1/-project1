@@ -169,7 +169,7 @@ const ForumDetail = () => {
   if (!forum) return null;
 
   return (
-    <div className="space-y-6 overflow-y-auto pb-10">
+    <div className="space-y-6">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -267,7 +267,7 @@ const ForumDetail = () => {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               type="submit"
-              className="bg-gray-800 text-white px-6 py-2 rounded-lg hover:bg-gray-700 transition"
+              className="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition"
             >
               Post Reply
             </motion.button>

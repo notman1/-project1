@@ -20,7 +20,6 @@ function App() {
             <div className="circle"></div>
             <div className="circle"></div>
             <div className="circle"></div>
-            <div className="circle"></div>
           </div>
           <Navbar />
           <div className="container mx-auto px-4 py-8">
